@@ -14,7 +14,7 @@ You're expected to use this along with cron to cat the single-line CSV output to
 
 # Installation
 
-Use with cron. For example,
+Use with cron. For example, add something like the following to your `crontab` to record the temperature every minute:
 
 ```
 */1 * * * * /home/pi/Projects/raspberry-pi-status >> /home/pi/Logs/status.log
